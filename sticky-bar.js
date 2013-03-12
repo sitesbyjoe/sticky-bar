@@ -14,7 +14,7 @@
  *
  */
  
-$('.sidebar').removeClass('sticky'); // Why the hell is this here?!?! It needs to die.
+//$('.sidebar').removeClass('sticky'); // Why the hell is this here?!?! It needs to die.
 
 var stickyBar = {
 
@@ -39,11 +39,13 @@ var stickyBar = {
   };
 	
 	// Spitting out some variables so you can see the measurement
+	/*
 	console.log('-----stats-------');
 	console.log('doc height: ' + stickyBar.page.height);
 	console.log('top margin: ' + stickyBar.zone.top);
 	console.log('sidebar: ' + stickyBar.page.sidebar);
 	console.log('bottom margin: ' + stickyBar.zone.bottom);
+	*/
 	
 	// Everytime the user scrolls we fire this function
 	$(document).scroll(function() {
